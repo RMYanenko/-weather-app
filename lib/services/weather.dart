@@ -1,7 +1,7 @@
 import 'package:clima/screens/location.dart';
 import 'package:clima/services/networking.dart';
 
-const appKey = '1513ad5284e73805a5e244ce08c6e71c';
+const appKey = '64e10f63570dc0ae5958473acb840733';
 const openWeatherMapUrl = 'https://samples.openweathermap.org/data/2.5/weather';
 
 class WeatherModel {
@@ -18,7 +18,6 @@ class WeatherModel {
 
     return weatherData;
   }
-
 
   String getWeatherIcon(int condition) {
     if (condition < 300) {
